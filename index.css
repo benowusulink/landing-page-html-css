@@ -1,0 +1,152 @@
+/* For all elements */
+
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+	height: 2000px;
+}
+
+/* Main page header */
+
+header{
+border: solid blue 1px;
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./assets/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	background-color: black;
+}
+
+/* Navigation bar */
+
+nav {
+	border: solid blue 2px;
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+ul {
+	border: solid pink 2px;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 0;
+}
+/* Navigation image */
+
+#nav-logo{
+	border: solid red 1px;
+	width: 95px;
+	height: 95px;
+	margin-right: 30%;
+}
+
+a img {
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+a img:hover {
+	transform: scale(1.1);
+}
+
+/* Navigation links */
+
+#nav-link{
+	border: solid red 1px;
+	margin-left: 5%;
+	width: 100px;
+	padding-top: 50px;
+}
+
+a p {
+	color: white;
+	transition: 0.3s;
+}
+
+a p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* Main header */
+
+#header{
+	border: solid green 1px;
+	margin-top: 10%;
+}
+
+/* Main header Image */
+
+#header img{
+	border: solid green 1px;
+	width: 300px;
+	height: 300px;
+	margin-left: 70%;
+	margin-top: -10%;
+}
+
+/* Main header Text */
+
+#header h2{
+	border: solid green 1px;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 10%;
+	color: white;
+	line-height: 40px;
+}
+
+/* Main header Buttons */
+
+#header div{
+	border: solid green 1px;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: -10%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+/* Main header hungry-btn */
+
+#hungry-btn{
+	border: solid white 2px;
+	padding: 2px 40px;
+	border-radius: 23%
+}
+
+#hungry-btn:hover{
+	border: solid green 2px;
+}
+/* Main header show-me-more-btn */
+
+#show-me-more-btn{
+	border: solid white 2px;
+	padding: 2px 40px;
+}
+
+#show-me-more-btn:hover{
+	border: solid green 2px;
+}
+
+
+
+
+
+
+
+
+
+
