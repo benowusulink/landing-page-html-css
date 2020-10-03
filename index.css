@@ -141,12 +141,161 @@ a p:hover {
 	border: solid green 2px;
 }
 
+/* Main */
 
+main{
+	border: solid blue 2px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 
+/* Main header */
+main h2{
+}
 
+/* Main div (for styling)*/
 
+main div {
+	border-bottom: solid green 2px;
+	width: 10%;
+	margin-left: 45%;
+	text-align: center;
+	margin-bottom: 10%;
+}
 
+/* Main section */
 
+main section{
+	border: solid black 2px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 5%;
+	margin-bottom: 2%;
+}
+
+main section article {
+	width: 20%;
+}
+
+main section article p {
+	line-height: 25px;
+}
+
+/* Photo gallery */
+
+#photo-gallery{
+	border: solid red 1px;
+	height: auto;
+	width: 100%;
+}
+
+#photo-gallery ul{
+	border: solid blue 1px;
+	width: 100%;
+	margin-top: -2%;
+
+}
+
+#photo-gallery ul li{
+	border: solid green 1px;
+	width: 25%;
+	height: auto;
+	overflow: hidden;
+	background-color: black;
+
+}
+
+#photo-gallery ul li img{
+	border: solid red 1px;
+	width: 100%;
+	height: auto;
+	transform: scale(1.1);
+	transition: 0.3s;
+	opacity: 0.7;
+
+}
+
+#photo-gallery ul li img:hover{
+	opacity: 1;
+	transform: scale(1.03);
+}
+
+/* How it works Section */
+
+#how-it-works{
+	border: solid green 2px;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#underline{
+	width: 10%;
+	border-bottom: solid green 2px;
+	margin-left: 45%
+}
+
+/* How it works Main div */
+
+#how-it-works-main{
+	border: solid red 4px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0;
+
+}
+
+/* How it works Main div image */
+
+#how-it-works-main figure{
+	height: auto;
+	width: 25%;
+	margin-right: 25%;
+	margin-left: 15%;
+}
+
+#how-it-works-main figure img{
+	height: 100%;
+	width: 100%;
+}
+
+/* How it works Main div text */
+
+#how-it-works-main div ul{
+	border: solid red 4px;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-left: 5%;
+}
+
+#how-it-works-main div ul li{
+	display: flex;
+	justify-content: flex-start;
+}
+
+#how-it-works-main div li h4{
+	border: green solid 2px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+#how-it-works-main div li h3{
+	border: green solid 2px;
+	padding-top: 4%;
+}
+
+/* How it works list image */
+
+#how-it-works-list ul li img {
+	margin-top: 25%;
+	margin-right: 10%;
+
+}
 
 
 
