@@ -1,0 +1,6 @@
+@media only screen and (max-width: 9000px) {
+  #how-it-works-main figure {
+    height: auto;
+    width: 300px;
+  }
+}
