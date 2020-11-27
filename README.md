@@ -15,8 +15,8 @@ showcase my skills with the programming languages.
 
 ## Programming Languages and tools used
 
-- HTML
-- CSS
+- HTML & HTML5
+- CSS & CSS3
 
 - Google fonts API (font)
 - Ion Icons API (icons)
